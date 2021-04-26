@@ -56,15 +56,47 @@
 		FAD71B5926374C49006C9B38 /* AnimatinoWithRandom */ = {
 			isa = PBXGroup;
 			children = (
-				FAD71B5A26374C49006C9B38 /* AppDelegate.swift */,
-				FAD71B5C26374C49006C9B38 /* SceneDelegate.swift */,
-				FAD71B5E26374C49006C9B38 /* ViewController.swift */,
-				FAD71B6026374C49006C9B38 /* Main.storyboard */,
-				FAD71B6326374C49006C9B38 /* Assets.xcassets */,
-				FAD71B6526374C49006C9B38 /* LaunchScreen.storyboard */,
-				FAD71B6826374C49006C9B38 /* Info.plist */,
+				FAD71B6F26374C5D006C9B38 /* Supporting */,
+				FAD71B7126374C66006C9B38 /* ViewControllers */,
+				FAD71B7326374C72006C9B38 /* Storyboards */,
+				FAD71B7526374C7C006C9B38 /* Resources */,
 			);
 			path = AnimatinoWithRandom;
+			sourceTree = "<group>";
+		};
+		FAD71B6F26374C5D006C9B38 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				FAD71B5A26374C49006C9B38 /* AppDelegate.swift */,
+				FAD71B5C26374C49006C9B38 /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		FAD71B7126374C66006C9B38 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAD71B5E26374C49006C9B38 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAD71B7326374C72006C9B38 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAD71B6026374C49006C9B38 /* Main.storyboard */,
+				FAD71B6526374C49006C9B38 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAD71B7526374C7C006C9B38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD71B6326374C49006C9B38 /* Assets.xcassets */,
+				FAD71B6826374C49006C9B38 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R242LK7DMS;
-				INFOPLIST_FILE = AnimatinoWithRandom/Info.plist;
+				INFOPLIST_FILE = AnimatinoWithRandom/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ArtemBazhanov.AnimatinoWithRandom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R242LK7DMS;
-				INFOPLIST_FILE = AnimatinoWithRandom/Info.plist;
+				INFOPLIST_FILE = AnimatinoWithRandom/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ArtemBazhanov.AnimatinoWithRandom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
