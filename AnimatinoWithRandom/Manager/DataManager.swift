@@ -73,5 +73,22 @@ class DataManager {
     ]
     
     private init() {}
+    
+    func getRandomAnimation() -> Animation {
+        let name = animations[Int.random(in: 0...animations.count - 1)].rawValue
+        let curve = animationCurves[Int.random(in: 0...animationCurves.count - 1)].rawValue
+        
+        let duration = Float.random(in: 0...3)
+        let fromValue = Float.random(in: 0...3)
+        let toValue = Float.random(in: 0...3)
+        let autoreverses: Bool = Int.random(in: 0...1) == 0 ? true : false
+        let repeatCount = Float.random(in: 0...3)
+        let initialVelocity = Float.random(in: 0...3)
+        let damping = Float.random(in: 0...3)
+        
+        let animation = Animation(name: name, curve: curve, duration: duration, fromValue: fromValue, toValue: toValue, autoreverses: autoreverses, repeatCount: repeatCount, initialVelocity: initialVelocity, damping: damping)
+        
+        return animation
+    }
 
 }
