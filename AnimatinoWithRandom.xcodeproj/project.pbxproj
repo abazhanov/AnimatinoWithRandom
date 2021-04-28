@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41C30F7DF67810CE4760DC5A /* Pods_AnimatinoWithRandom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A0DC77D62498BBDE5F4DF5 /* Pods_AnimatinoWithRandom.framework */; };
 		FAD71B5B26374C49006C9B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD71B5A26374C49006C9B38 /* AppDelegate.swift */; };
 		FAD71B5D26374C49006C9B38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD71B5C26374C49006C9B38 /* SceneDelegate.swift */; };
 		FAD71B5F26374C49006C9B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD71B5E26374C49006C9B38 /* ViewController.swift */; };
 		FAD71B6226374C49006C9B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD71B6026374C49006C9B38 /* Main.storyboard */; };
 		FAD71B6426374C49006C9B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD71B6326374C49006C9B38 /* Assets.xcassets */; };
 		FAD71B6726374C49006C9B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD71B6526374C49006C9B38 /* LaunchScreen.storyboard */; };
+		FAD71B7F263853CB006C9B38 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD71B7E263853CB006C9B38 /* Animation.swift */; };
+		FAD71B82263856D9006C9B38 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD71B81263856D9006C9B38 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DFF8AC926C35219554E944F /* Pods-AnimatinoWithRandom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatinoWithRandom.debug.xcconfig"; path = "Target Support Files/Pods-AnimatinoWithRandom/Pods-AnimatinoWithRandom.debug.xcconfig"; sourceTree = "<group>"; };
+		48A0DC77D62498BBDE5F4DF5 /* Pods_AnimatinoWithRandom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatinoWithRandom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D342C60C39F904406F9213 /* Pods-AnimatinoWithRandom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatinoWithRandom.release.xcconfig"; path = "Target Support Files/Pods-AnimatinoWithRandom/Pods-AnimatinoWithRandom.release.xcconfig"; sourceTree = "<group>"; };
 		FAD71B5726374C49006C9B38 /* AnimatinoWithRandom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatinoWithRandom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD71B5A26374C49006C9B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD71B5C26374C49006C9B38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		FAD71B6326374C49006C9B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD71B6626374C49006C9B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD71B6826374C49006C9B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD71B7E263853CB006C9B38 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		FAD71B81263856D9006C9B38 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C30F7DF67810CE4760DC5A /* Pods_AnimatinoWithRandom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		914052046BF244BFA7F9177A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF8AC926C35219554E944F /* Pods-AnimatinoWithRandom.debug.xcconfig */,
+				C2D342C60C39F904406F9213 /* Pods-AnimatinoWithRandom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE12239603285ADEBB6A2A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48A0DC77D62498BBDE5F4DF5 /* Pods_AnimatinoWithRandom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAD71B4E26374C49006C9B38 = {
 			isa = PBXGroup;
 			children = (
 				FAD71B5926374C49006C9B38 /* AnimatinoWithRandom */,
 				FAD71B5826374C49006C9B38 /* Products */,
+				914052046BF244BFA7F9177A /* Pods */,
+				EE12239603285ADEBB6A2A81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +84,8 @@
 		FAD71B5926374C49006C9B38 /* AnimatinoWithRandom */ = {
 			isa = PBXGroup;
 			children = (
+				FAD71B8526387777006C9B38 /* Manager */,
+				FAD71B7D263853B4006C9B38 /* Model */,
 				FAD71B6F26374C5D006C9B38 /* Supporting */,
 				FAD71B7126374C66006C9B38 /* ViewControllers */,
 				FAD71B7326374C72006C9B38 /* Storyboards */,
@@ -99,6 +129,22 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		FAD71B7D263853B4006C9B38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAD71B7E263853CB006C9B38 /* Animation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAD71B8526387777006C9B38 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FAD71B81263856D9006C9B38 /* DataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD71B6B26374C49006C9B38 /* Build configuration list for PBXNativeTarget "AnimatinoWithRandom" */;
 			buildPhases = (
+				3B91E37789D67B84C9B5B7FA /* [CP] Check Pods Manifest.lock */,
 				FAD71B5326374C49006C9B38 /* Sources */,
 				FAD71B5426374C49006C9B38 /* Frameworks */,
 				FAD71B5526374C49006C9B38 /* Resources */,
+				E540B130972DBB3F042BBBDC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,13 +212,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B91E37789D67B84C9B5B7FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimatinoWithRandom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E540B130972DBB3F042BBBDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimatinoWithRandom/Pods-AnimatinoWithRandom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimatinoWithRandom/Pods-AnimatinoWithRandom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimatinoWithRandom/Pods-AnimatinoWithRandom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAD71B5326374C49006C9B38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FAD71B5F26374C49006C9B38 /* ViewController.swift in Sources */,
+				FAD71B82263856D9006C9B38 /* DataManager.swift in Sources */,
 				FAD71B5B26374C49006C9B38 /* AppDelegate.swift in Sources */,
+				FAD71B7F263853CB006C9B38 /* Animation.swift in Sources */,
 				FAD71B5D26374C49006C9B38 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +407,7 @@
 		};
 		FAD71B6C26374C49006C9B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFF8AC926C35219554E944F /* Pods-AnimatinoWithRandom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -334,6 +427,7 @@
 		};
 		FAD71B6D26374C49006C9B38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D342C60C39F904406F9213 /* Pods-AnimatinoWithRandom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

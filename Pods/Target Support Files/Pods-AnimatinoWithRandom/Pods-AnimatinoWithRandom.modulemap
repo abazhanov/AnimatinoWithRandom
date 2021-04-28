@@ -1,0 +1,6 @@
+framework module Pods_AnimatinoWithRandom {
+  umbrella header "Pods-AnimatinoWithRandom-umbrella.h"
+
+  export *
+  module * { export * }
+}
